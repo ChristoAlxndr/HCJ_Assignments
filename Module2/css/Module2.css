@@ -1,0 +1,123 @@
+/**********************************/
+/******* Base Style: BEGIN *******/
+/**********************************/
+
+* {
+    box-sizing: border-box; }
+
+h1 {
+    font-family: "Brush Script", cursive;
+    margin-bottom: 7px;     }
+
+h2 {
+    font-family: "Brush Script", cursive;
+    margin-bottom: 5px;     }
+
+h3  {
+    font-family: "Brush Script", cursive;
+    margin-bottom: 3px;     }
+
+.p1 {   
+    margin: 7px 7px 7px 7px;
+    border: 7px solid green;
+    background-color: #000000;
+    padding: 13px;
+    text-align: left;
+    font-family: Garamond, serif;
+    color: yellow;          }
+
+ .p2 {
+    margin: 7px 7px 7px 7px;
+    border: 7px solid orange;
+    background-color: #808080;
+    padding: 13px;
+    text-align: center;
+    font-family: Garamond, serif;
+    color: white;          }    
+
+.p3 {
+    margin: 7px 7px 7px 7px;
+    border: 7px solid purple;
+    background-color: #fafc82;
+    padding: 13px;
+    text-align: right;
+    font-family: Garamond, serif;
+    color: blue;          }    
+   
+/**********************************/
+/*******  Base Style: END  *******/
+/**********************************/
+ 
+
+/**************************************************/
+/******* Basic Responsive Framework BEGIN *******/
+/**************************************************/
+.row {
+    width: 100%     }
+    
+/******* ******* Large Devices ******* *******/
+@media (min-width: 992px) {
+    .lgColumn-1, .lgcolumn-2, .lgColumn-3, .lgColumn-4, .lgColumn-5, .lgColumn-6,
+    .lgColumn-7, .lgColumn-8, .lgColumn-9, .lgColumn-10, .lgColumn-11, .lgColumn-12
+    {float: left; border: 1px dot green; }
+    .lgColumn-1  { width:   8.33%;  }
+    .lgColumn-2  { width:  16.66%;  }
+    .lgColumn-3  { width:  25.00%;  }
+    .lgColumn-4  { width:  33.33%;  }  
+    .lgColumn-5  { width:  41.66%;  }
+    .lgColumn-6  { width:  50.00%;  }
+    .lgColumn-7  { width:  58.33%;  }
+    .lgColumn-8  { width:  66.66%;  }
+    .lgColumn-9  { width:  74.99%;  }
+    .lgColumn-10 { width:  83.33%;  }
+    .lgColumn-11 { width:  91.66%;  }
+    .lgColumn-12 { width: 100.00%;  } 
+    }
+/******* ******* Large Devices END ******* *******/    
+
+/******* ******* Medium Devices ******* *******/
+@media (min-width: 768px) and (max-width: 991px) {
+.mdColumn-1, .mdColumn-2, .mdColumn-3, .mdColumn-4,
+.mdColumn-5, .mdColumn-6, .mdColumn-7, .mdColumn-8,
+.mdColumn-9, .mdColumn-10, .mdColumn-11, .mdColumn-12
+{float: left; border: 1px dot white; }
+    .mdColumn-1  { width:   8.33%;   }
+    .mdColumn-2  { width:  16.66%;   }
+    .mdColumn-3  { width:  25.00%;   }
+    .mdColumn-4  { width:  33.33%;   }
+    .mdColumn-5  { width:  41.66%;   }
+    .mdColumn-6  { width:  50.00%;   }
+    .mdColumn-7  { width:  58.33%;   }
+    .mdColumn-8  { width:  66.66%;   }
+    .mdColumn-9  { width:  74.99%;   }
+    .mdColumn-10 { width:  83.33%;   }
+    .mdColumn-11 { width:  91.66%;   }
+    .mdColumn-12 { width: 100.00%;   }
+}
+/******* ******* Medium Devices END ******* *******/    
+
+/******* ******* Small Devices BEGIN ******* *******/
+@media (max-width: 767px)   {
+.smColumn-1, .smColumn-2, .smColumn-3,
+.smColumn-4, .smColumn-5, .smColumn-6,
+.smColumn-7, .smColumn-8, .smColumn-9,
+.smColumn-10, .smColumn-11, .smColumn-12
+{float: left; border: 1px dot white; }
+.smColumn-1  { width:   8.33%;   }
+.smColumn-2  { width:  16.66%;   }
+.smColumn-3  { width:  25.00%;   }
+.smColumn-4  { width:  33.33%;   }
+.smColumn-5  { width:  41.66%;   }
+.smColumn-6  { width:  50.00%;   }
+.smColumn-7  { width:  58.33%;   }
+.smColumn-8  { width:  66.66%;   }
+.smColumn-9  { width:  74.99%;   }
+.smColumn-10 { width:  83.33%;   }
+.smColumn-11 { width:  91.66%;   }
+.smColumn-12 { width: 100.00%;   }
+}
+/******* ******* Small Devices END ******* *******/     
+    
+/**************************************************/
+/******* Basic Responsive Framework END *******/
+/**************************************************/
