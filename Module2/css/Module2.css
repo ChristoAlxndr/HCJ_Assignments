@@ -3,7 +3,7 @@
 /**********************************/
 
 * {
-    box-sizing: border-box; }
+    box-sizing:border-box   }
 
 h1 {
     font-family: "Brush Script", cursive;
@@ -17,33 +17,33 @@ h3  {
     font-family: "Brush Script", cursive;
     margin-bottom: 3px;     }
 
-.p1 {   
-    margin: 7px 7px 7px 7px;
-    border: 7px solid green;
-    background-color: #000000;
-    padding: 13px;
-    text-align: left;
-    font-family: Garamond, serif;
-    color: yellow;          }
-
- .p2 {
-    margin: 7px 7px 7px 7px;
+.pBox {
+    box-sizing: border-box;
+    position: relative;
+    margin: 3px 3px 3px 3px;
     border: 7px solid orange;
     background-color: #808080;
-    padding: 13px;
-    text-align: center;
-    font-family: Garamond, serif;
-    color: white;          }    
+    padding: 13px;          }
 
-.p3 {
-    margin: 7px 7px 7px 7px;
-    border: 7px solid purple;
-    background-color: #fafc82;
-    padding: 13px;
-    text-align: right;
+.pText {   
+    text-align: left;
     font-family: Garamond, serif;
-    color: blue;          }    
-   
+    color: white;          } 
+
+.pBoxHeader {
+    box-sizing: border-box;
+    position: absolute;
+    margin: 3px 3px 3px 3px;
+    background-color: white;
+    padding: 3px;          }
+
+.pBoxHeaderText{
+    text-align: right;
+    font-family: "Brush Script", cursive;
+    font-weight: bold;
+    color: orange;
+    margin-bottom: 3px;     }
+
 /**********************************/
 /*******  Base Style: END  *******/
 /**********************************/
@@ -59,7 +59,7 @@ h3  {
 @media (min-width: 992px) {
     .lgColumn-1, .lgcolumn-2, .lgColumn-3, .lgColumn-4, .lgColumn-5, .lgColumn-6,
     .lgColumn-7, .lgColumn-8, .lgColumn-9, .lgColumn-10, .lgColumn-11, .lgColumn-12
-    {float: left; border: 1px dot green; }
+    {float: left; }
     .lgColumn-1  { width:   8.33%;  }
     .lgColumn-2  { width:  16.66%;  }
     .lgColumn-3  { width:  25.00%;  }
@@ -80,7 +80,7 @@ h3  {
 .mdColumn-1, .mdColumn-2, .mdColumn-3, .mdColumn-4,
 .mdColumn-5, .mdColumn-6, .mdColumn-7, .mdColumn-8,
 .mdColumn-9, .mdColumn-10, .mdColumn-11, .mdColumn-12
-{float: left; border: 1px dot white; }
+{float: left; }
     .mdColumn-1  { width:   8.33%;   }
     .mdColumn-2  { width:  16.66%;   }
     .mdColumn-3  { width:  25.00%;   }
@@ -102,7 +102,7 @@ h3  {
 .smColumn-4, .smColumn-5, .smColumn-6,
 .smColumn-7, .smColumn-8, .smColumn-9,
 .smColumn-10, .smColumn-11, .smColumn-12
-{float: left; border: 1px dot white; }
+{float: left; }
 .smColumn-1  { width:   8.33%;   }
 .smColumn-2  { width:  16.66%;   }
 .smColumn-3  { width:  25.00%;   }
