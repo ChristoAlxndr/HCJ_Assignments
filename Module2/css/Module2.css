@@ -13,21 +13,48 @@ h3  {
     font-family: "Brush Script", cursive;
     margin-bottom: 5px;     }
 
-.pBoxHeader {
+.pBoxHeader1 {
     position: relative;
     z-index: 1;
     float: right;
-    margin: 3px 6px 10px 10px;
+    margin: 6px 6px 10px 10px;
     background-color: white;
     border-color: white;
     border-style: inset;
     padding: 3px 3px 7px 7px;          }
+
+.pBoxHeader2 {
+    position: relative;
+    z-index: 1;
+    float: right;
+    margin: 3px 6px 10px 10px;
+    background-color: tan;
+    border-color: white;
+    border-style: inset;
+    padding: 6px 6px 7px 7px;          }
+
+.pBoxHeader3 {
+    position: relative;
+    z-index: 1;
+    float: right;
+    margin: 3px 6px 10px 10px;
+    background-color: brown;
+    border-color: white;
+    border-style: inset;
+    padding: 6px 6px 7px 7px;          }
     
-.pBoxHeaderText{
+.pBoxHeaderText1 {
     text-align: right;
     font-family: "Brush Script", cursive;
     font-weight: bold;
     color: orange;
+    margin-bottom: 3px;     }
+
+.pBoxHeaderText2 {
+    text-align: right;
+    font-family: "Brush Script", cursive;
+    font-weight: bold;
+    color: brown;
     margin-bottom: 3px;     }
 
  .pBox {
@@ -35,7 +62,7 @@ h3  {
     margin: 1px 1px 3px 3px;
     border: 7px solid orange;
     background-color: #808080;
-    padding: 9px;          }
+    padding: 40px 10px 10px 10px;          }
     
 .pText {   
     text-align: left;
