@@ -7,42 +7,40 @@
 
 h1 {
     font-family: "Brush Script", cursive;
-    margin-bottom: 7px;     }
-
-h2 {
-    font-family: "Brush Script", cursive;
-    margin-bottom: 5px;     }
+    margin-bottom: 3px;     }
 
 h3  {
     font-family: "Brush Script", cursive;
-    margin-bottom: 3px;     }
-
-.pBox {
-    box-sizing: border-box;
-    position: relative;
-    margin: 3px 3px 3px 3px;
-    border: 7px solid orange;
-    background-color: #808080;
-    padding: 13px;          }
-
-.pText {   
-    text-align: left;
-    font-family: Garamond, serif;
-    color: white;          } 
+    margin-bottom: 5px;     }
 
 .pBoxHeader {
-    box-sizing: border-box;
-    position: absolute;
-    margin: 3px 3px 3px 3px;
+    position: relative;
+    z-index: 1;
+    float: right;
+    margin: 3px 6px 10px 10px;
     background-color: white;
-    padding: 3px;          }
-
+    border-color: white;
+    border-style: inset;
+    padding: 3px 3px 7px 7px;          }
+    
 .pBoxHeaderText{
     text-align: right;
     font-family: "Brush Script", cursive;
     font-weight: bold;
     color: orange;
     margin-bottom: 3px;     }
+
+ .pBox {
+    position: relative;
+    margin: 1px 1px 3px 3px;
+    border: 7px solid orange;
+    background-color: #808080;
+    padding: 9px;          }
+    
+.pText {   
+    text-align: left;
+    font-family: Garamond, serif;
+    color: white;          } 
 
 /**********************************/
 /*******  Base Style: END  *******/
